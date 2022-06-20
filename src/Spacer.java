@@ -1,4 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Spacer extends  Spaceship{
+
+    Spacer(){
+        super();
+    }
     @Override
     public int getCapacity() {
         return 20;
@@ -13,4 +20,12 @@ public class Spacer extends  Spaceship{
     public int getSafetyRating() {
         return 4;
     }
+
+    @Override
+    public List<Seat> getSeats() {
+        return seats;
+    }
+
+
+
 }

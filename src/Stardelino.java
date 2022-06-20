@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Stardelino extends Spaceship{
     @Override
     public int getCapacity() {
@@ -13,4 +15,11 @@ public class Stardelino extends Spaceship{
     public int getSafetyRating() {
         return 8;
     }
+
+    @Override
+    public List<Seat> getSeats() {
+        return seats;
+    }
+
+
 }
