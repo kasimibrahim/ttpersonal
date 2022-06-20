@@ -1,9 +1,8 @@
-import java.util.ArrayList;
 import java.util.List;
 
-public class Spacer extends  Spaceship{
+public class Spacer extends Spaceship {
 
-    Spacer(){
+    public Spacer(){
         super();
     }
     @Override

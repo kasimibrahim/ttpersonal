@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Bulletship extends Spaceship{
+public class Bulletship extends Spaceship {
     @Override
     public int getCapacity() {
         return 100;

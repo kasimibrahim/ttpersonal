@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class TurntablGalactic extends Company{
+public class TurntablGalactic extends Company {
     private final String companyName;
     private final List<Spaceship> fleet;
 
@@ -40,4 +40,5 @@ public class TurntablGalactic extends Company{
     public String getCompanyName() {
         return companyName;
     }
+
 }

@@ -11,7 +11,7 @@ public abstract class Spaceship {
 
     public abstract List<Seat> getSeats();
 
-//    public  boolean bookSeat(HumanSeat s){
+//    public  boolean bookSeat(spaceships.HumanSeat s){
 //        if (seats.size() < this.getCapacity()) {
 //            seats.add(s);
 //            return true;

@@ -1,6 +1,7 @@
+
 import java.util.List;
 
-public class Stardelino extends Spaceship{
+public class Stardelino extends Spaceship {
     @Override
     public int getCapacity() {
         return 80;

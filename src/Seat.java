@@ -1,9 +1,13 @@
-public class Seat {
+public abstract class Seat {
     private final int id;
     private final String nameOfPerson;
 
-    Seat(int id, String n){
+    public Seat(int id, String n){
         this.id = id;
         this.nameOfPerson = n;
+    }
+
+    public int getId(){
+        return this.id;
     }
 }

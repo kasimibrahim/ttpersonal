@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class SpaceT extends Company{
+public class SpaceT extends Company {
     private final String companyName;
     private final List<Spaceship> fleet;
     SpaceT(){
@@ -38,4 +38,6 @@ public class SpaceT extends Company{
     public String getCompanyName() {
         return companyName;
     }
+
+
 }
