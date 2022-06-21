@@ -15,7 +15,6 @@ public class SpaceshipTest {
         Assert.assertTrue(new Bulletship().bookSeat(new HumanSeat(4, "Kasim"), "Abunabunu"));
 
     }
-
     @Test
     public void testBookSeatCapacityBulletship() {
         Bulletship b = new Bulletship();
