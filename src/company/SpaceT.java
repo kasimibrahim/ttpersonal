@@ -1,10 +1,18 @@
+package company;
+
+import company.Company;
+import ships.Bulletship;
+import ships.Spacer;
+import ships.Spaceship;
+import ships.Stardelino;
+
 import java.util.List;
 
 public class SpaceT extends Company {
     private final String companyName;
     private final List<Spaceship> fleet;
-    SpaceT(){
-        companyName = "SpaceT";
+    public SpaceT(){
+        companyName = "company.SpaceT";
         fleet = List.of(
                 new Spacer(),
                 new Stardelino(),

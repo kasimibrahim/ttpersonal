@@ -1,3 +1,6 @@
+package company;
+
+import ships.Spaceship;
 
 import java.util.List;
 

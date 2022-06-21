@@ -1,3 +1,8 @@
+package ships;
+
+
+import reservations.*;
+
 import java.util.List;
 
 public class Bulletship extends Spaceship {

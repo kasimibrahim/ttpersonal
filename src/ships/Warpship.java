@@ -1,6 +1,11 @@
+package ships;
+
+import reservations.*;
+import ships.Spaceship;
+
 import java.util.List;
 
-public class Warpship extends Spaceship{
+public class Warpship extends Spaceship {
 
     private final int speed = 2150;
 

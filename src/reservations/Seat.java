@@ -1,3 +1,5 @@
+package reservations;
+
 public abstract class Seat {
     private final int id;
     private final String nameOfPerson;
@@ -9,5 +11,9 @@ public abstract class Seat {
 
     public int getId(){
         return this.id;
+    }
+
+    public String getName(){
+        return this.nameOfPerson;
     }
 }

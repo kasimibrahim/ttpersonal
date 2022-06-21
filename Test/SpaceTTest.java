@@ -1,7 +1,10 @@
 
 
+import company.*;
+
 import org.junit.Assert;
 import org.junit.Test;
+import ships.Spaceship;
 
 public class SpaceTTest {
 
@@ -9,7 +12,7 @@ public class SpaceTTest {
     public void test(){
         Assert.assertTrue(new TurntablGalactic().getCompanyName(), true);
         Assert.assertNotNull(new TurntablGalactic().getFleet());
-        Assert.assertEquals(new SpaceT().getCompanyName(), "SpaceT");
+        Assert.assertEquals(new SpaceT().getCompanyName(), "company.SpaceT");
 
     }
 

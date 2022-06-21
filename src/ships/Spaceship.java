@@ -1,3 +1,7 @@
+package ships;
+
+import reservations.*;
+
 import java.util.ArrayList;
 import java.util.List;
 

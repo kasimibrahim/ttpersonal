@@ -1,26 +1,30 @@
+package ships;
+
+import reservations.*;
+import ships.Spaceship;
 
 import java.util.List;
 
-public class Stardelino extends Spaceship {
+public class Spacer extends Spaceship {
 
-    public Stardelino(){
+    public Spacer(){
         //counts the number of times a spaceship is created;
         super();
         count++;
     }
     @Override
     public int getCapacity() {
-        return 80;
+        return 20;
     }
 
 
     public int getSpeed() {
-        return 900;
+        return 450;
     }
 
     @Override
     public int getSafetyRating() {
-        return 8;
+        return 4;
     }
 
     @Override
