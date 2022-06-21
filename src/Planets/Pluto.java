@@ -1,9 +1,15 @@
 package Planets;
 
-public class Pluto {
-    private final boolean isMoon;
-    public Pluto(boolean isMoon){
-        this.isMoon = isMoon;
+public class Pluto extends CelestialBody {
+
+
+    @Override
+    public boolean supportsLife() {
+        return false;
     }
 
+    @Override
+    public boolean canLand() {
+        return true;
+    }
 }

@@ -12,5 +12,4 @@ public class EarthTest {
         Assert.assertEquals(Earth.getInstance(), Earth.getInstance());
     }
 
-
 }

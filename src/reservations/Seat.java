@@ -16,4 +16,6 @@ public abstract class Seat {
     public String getName(){
         return this.nameOfPerson;
     }
+
+    public abstract boolean isPlutoMoon();
 }
