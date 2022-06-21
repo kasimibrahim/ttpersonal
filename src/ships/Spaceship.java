@@ -25,21 +25,23 @@ public abstract class Spaceship {
      * @param s request for seat
      * @return true if seat was successfully booked
      */
-//    public  boolean bookSeat(HumanSeat s){
-//        if (seats.size() < this.getCapacity()) {
-//            seats.add(s);
-//            return true;
-//        }
-//        return false;
-//    }
-//
-//    public boolean bookSeat(MartianSeat m){
-//        if (seats.size() < this.getCapacity()){
-//            seats.add(m);
-//            return true;
-//        }
-//        return false;
-//    }
+    public  boolean bookSeat(HumanSeat s, String preferredFood){
+        if (seats.size() < this.getCapacity()) {
+            System.out.println(preferredFood + " will be served");
+            seats.add(s);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean bookSeat(MartianSeat m, String preferredFood){
+        if (seats.size() < this.getCapacity()){
+            System.out.println(preferredFood + " will be served");
+            seats.add(m);
+            return true;
+        }
+        return false;
+    }
     public boolean bookSeat(Seat s){
         if (seats.size() < this.getCapacity()) {
             if (s instanceof HumanSeat){
