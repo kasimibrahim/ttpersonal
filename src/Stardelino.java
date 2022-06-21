@@ -2,12 +2,18 @@
 import java.util.List;
 
 public class Stardelino extends Spaceship {
+
+    public Stardelino(){
+        //counts the number of times a spaceship is created;
+        super();
+        count++;
+    }
     @Override
     public int getCapacity() {
         return 80;
     }
 
-    @Override
+
     public int getSpeed() {
         return 900;
     }
@@ -20,6 +26,11 @@ public class Stardelino extends Spaceship {
     @Override
     public List<Seat> getSeats() {
         return seats;
+    }
+
+    @Override
+    public int getCount() {
+        return count;
     }
 
 

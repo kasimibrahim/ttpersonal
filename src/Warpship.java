@@ -9,7 +9,7 @@ public class Warpship extends Spaceship{
         return 200;
     }
 
-    @Override
+
     public int getSpeed() {
         return 900;
     }
@@ -18,7 +18,7 @@ public class Warpship extends Spaceship{
         if (pass.equals("passWorD")){
             return speed;
         }
-        return getCapacity();
+        return 900;
     }
 
     @Override
@@ -29,5 +29,10 @@ public class Warpship extends Spaceship{
     @Override
     public List<Seat> getSeats() {
         return null;
+    }
+
+    @Override
+    public int getCount() {
+        return count;
     }
 }
