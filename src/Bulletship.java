@@ -33,4 +33,5 @@ public class Bulletship extends Spaceship {
         }
         return false;
     }
+
 }
