@@ -1,21 +1,25 @@
 package reservations;
 
+import Passenger.Passenger;
+
 public abstract class Seat {
     private final int id;
-    private final String nameOfPerson;
+    private final Passenger passenger;
 
-    public Seat(int id, String n){
+    public Seat(int id, Passenger traveller){
         this.id = id;
-        this.nameOfPerson = n;
+        this.passenger = traveller;
     }
 
     public int getId(){
         return this.id;
     }
 
-    public String getName(){
-        return this.nameOfPerson;
+    public Passenger getPassenger(){
+        return passenger;
     }
+
+
 
     public abstract boolean isPlutoMoon();
 }

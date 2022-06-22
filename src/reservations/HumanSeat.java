@@ -1,10 +1,11 @@
 package reservations;
 
+import Passenger.Passenger;
 import reservations.Seat;
 
 public class HumanSeat extends Seat {
-    public HumanSeat(int id, String nameOfPerson){
-        super(id, nameOfPerson);
+    public HumanSeat(int id,  Passenger traveller){
+        super(id, traveller);
     }
 
     @Override
