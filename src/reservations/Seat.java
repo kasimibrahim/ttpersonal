@@ -20,6 +20,5 @@ public abstract class Seat {
     }
 
 
-
     public abstract boolean isPlutoMoon();
 }

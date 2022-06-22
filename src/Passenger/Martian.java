@@ -9,4 +9,5 @@ public class Martian extends Passenger{
     public boolean isHuman() {
         return false;
     }
+
 }

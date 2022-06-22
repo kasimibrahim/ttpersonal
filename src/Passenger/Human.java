@@ -10,4 +10,5 @@ public class Human extends Passenger{
         return true;
     }
 
+
 }

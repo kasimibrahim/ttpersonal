@@ -1,15 +1,21 @@
 package Passenger;
 
 public abstract class Passenger {
-    private String name;
+    private final String name;
 
     public Passenger(String name){
         this.name = name;
     }
 
-
-    public abstract boolean isHuman();
     public String getName(){
         return this.name;
     }
+
+    public abstract boolean isHuman();
+
+    public boolean canDate(Passenger p){
+        return this.isHuman();
+    }
+
+
 }
