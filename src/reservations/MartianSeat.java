@@ -1,10 +1,10 @@
 package reservations;
 
-import Passenger.Passenger;
+import Passenger.*;
 import reservations.Seat;
 
 public class MartianSeat extends Seat {
-    public MartianSeat(int id, Passenger traveller){
+    public MartianSeat(int id, Martian traveller){
         super(id, traveller);
     }
 

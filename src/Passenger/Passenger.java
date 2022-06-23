@@ -14,8 +14,9 @@ public abstract class Passenger {
     public abstract boolean isHuman();
 
     public boolean canDate(Passenger p){
-        return this.isHuman();
+        return this.isHuman() == p.isHuman();
     }
+
 
 
 }

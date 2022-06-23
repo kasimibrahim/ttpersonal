@@ -31,4 +31,9 @@ public class PassengerTest {
         Assert.assertFalse(m.canDate(h));
     }
 
+    @Test
+    public void doesPersonHaveAName(){
+        Assert.assertTrue(new Human("Kasim").getName(), true);
+    }
+
 }
